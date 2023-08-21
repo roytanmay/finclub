@@ -1,32 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Black+Ops+One&family=Cairo:wght@600&family=Kelly+Slab&family=Macondo&family=Plus+Jakarta+Sans:wght@200&family=Smooch&display=swap");
 
 .main-container {
-  font-size: 62.5%;
+   /* max-height: 100%;  */
+  font-size: 60%;
   margin: 0;
-  padding: 0;
+  padding: 0 6vw;
   user-select: none;
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  box-sizing: border-box;
-  font-family: "Cairo", sans-serif;
-} */
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
 
-/* .container {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-rows: 10% 90%;
-  grid-template-columns: auto auto;
-  grid-template-areas:
-    "navigation"
-    "layout";
-} */
+/* Styling for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #333; /* Color of the thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Styling for the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+  border-radius: 5px; /* Rounded corners for the track */
+}
 
 .navigation {
   height: 11vh;
